@@ -15,4 +15,4 @@ habilidades em desenvolvimento e contato.
 Projeto criado para fins de aprendizado e prática inicial em desenvolvimento web.
 
 ## 👤 Autor
-Davi Matheus Ferreira Sales
+Davi Matheus Ferreira Sales.
