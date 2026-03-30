@@ -11,16 +11,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet"
     >
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page-glow" aria-hidden="true"></div>
     <div class="layout">
         <header class="hero" id="inicio">
+            <div class="hero-web hero-web-left" aria-hidden="true"></div>
+            <div class="hero-web hero-web-right" aria-hidden="true"></div>
+
             <nav class="nav" aria-label="Navegação principal">
-                <a class="brand" href="#inicio">Davi Matheus</a>
+                <a class="brand" href="#inicio">
+                    <span class="brand-mark">DS</span>
+                    <span>Davi Matheus</span>
+                </a>
                 <div class="nav-links">
                     <a href="#sobre">Sobre</a>
                     <a href="#habilidades">Habilidades</a>
@@ -30,29 +37,61 @@
             </nav>
 
             <div class="hero-grid">
-                <section class="hero-copy">
-                    <p class="eyebrow">Desenvolvedor em formação</p>
-                    <h1>Construindo base sólida para atuar com back-end.</h1>
+                <section class="hero-copy" data-tilt>
+                    <p class="eyebrow">Spider-dev mode activated</p>
+                    <h1>Seu amigão da vizinhança, agora no back-end.</h1>
                     <p class="lead">
-                        Sou estudante de Análise e Desenvolvimento de Sistemas e busco uma oportunidade de estágio
-                        para aplicar conhecimentos em programação, lógica e banco de dados em um
-                        ambiente profissional.
+                        Sou estudante de Análise e Desenvolvimento de Sistemas, construindo uma base sólida
+                        em programação, lógica e banco de dados para atuar com desenvolvimento back-end e
+                        entregar soluções com responsabilidade, agilidade e visão prática.
                     </p>
+
                     <div class="hero-actions">
                         <a class="button button-primary" href="#contato">Entrar em contato</a>
                         <a class="button button-secondary" href="https://github.com/mahtsales" target="_blank" rel="noreferrer">Ver GitHub</a>
                     </div>
+
+                    <div class="hero-stats">
+                        <article class="stat-card" data-tilt>
+                            <strong>ADS</strong>
+                            <span>Formação em andamento com foco técnico.</span>
+                        </article>
+                        <article class="stat-card" data-tilt>
+                            <strong>Back-end</strong>
+                            <span>Interesse em APIs, lógica e banco de dados.</span>
+                        </article>
+                        <article class="stat-card" data-tilt>
+                            <strong>Estágio</strong>
+                            <span>Pronto para aprender em projetos reais.</span>
+                        </article>
+                    </div>
                 </section>
 
-                <aside class="hero-panel" aria-label="Resumo profissional">
-                    <span class="panel-kicker">Perfil</span>
-                    <h2>Davi Matheus Ferreira Sales</h2>
-                    <ul class="summary-list">
-                        <li>Estudante de Análise e Desenvolvimento de Sistemas</li>
-                        <li>Foco em desenvolvimento back-end</li>
-                        <li>Interesse em lógica, banco de dados e versionamento de código.</li>
-                        <li>Disponível para estágio na área de tecnologia</li>
-                    </ul>
+                <aside class="hero-visual" aria-label="Apresentação visual do perfil" data-tilt>
+                    <div class="photo-ring">
+                        <img
+                            class="profile-photo"
+                            src="profile-photo/foto-perfil.jpeg"
+                            alt="Foto de perfil de Davi Matheus Ferreira Sales"
+                        >
+                    </div>
+
+                    <div class="hero-badges">
+                        <span class="badge badge-red">Node.js</span>
+                        <span class="badge badge-blue">PostgreSQL</span>
+                        <span class="badge badge-dark">GitHub</span>
+                    </div>
+
+                    <div class="hero-panel">
+                        <span class="panel-kicker">Perfil</span>
+                        <h2>Davi Matheus Ferreira Sales</h2>
+                        <ul class="summary-list">
+                            <li>Estudante de Análise e Desenvolvimento de Sistemas</li>
+                            <li>Foco em desenvolvimento back-end</li>
+                            <li>Interesse em lógica, banco de dados e versionamento</li>
+                            <li>Disponível para estágio na área de tecnologia</li>
+                        </ul>
+                    </div>
                 </aside>
             </div>
         </header>
@@ -61,19 +100,21 @@
             <section class="section" id="sobre">
                 <div class="section-heading">
                     <p class="section-label">Sobre</p>
-                    <h2>Apresentação profissional</h2>
+                    <h2>Uma base técnica em construção, com ambição real de crescer</h2>
                 </div>
-                <div class="content-card">
+
+                <div class="content-card spotlight-card" data-tilt>
                     <p>
-                        Tenho interesse em desenvolvimento de software, especialmente na área de
-                        back-end, e venho construindo minha base técnica com HTML, CSS, JavaScript, NodeJS e Express, Lógica de Programação, PostgreSQL, além de conhecimentos em
-                        NodeJS, Git, Gi`tHub e Versionamento de Código. Estou em busca de uma oportunidade de estágio para aplicar e expandir esses conhecimentos em um ambiente profissional,
-                        contribuindo para projetos reais e adquirindo experiência prática na área de tecnologia.
+                        Tenho interesse em desenvolvimento de software, especialmente na área de back-end,
+                        e venho fortalecendo minha base com HTML, CSS, JavaScript, Node.js, Express,
+                        lógica de programação, PostgreSQL, Git, GitHub e versionamento de código.
+                        Busco uma oportunidade de estágio para aplicar esses conhecimentos em ambiente
+                        profissional, contribuir com projetos reais e acelerar meu desenvolvimento técnico.
                     </p>
                     <p>
-                        Além da formação acadêmica, minha experiência profissional atual no setor de
-                        compras contribuiu para fortalecer organização, comunicação entre áreas,
-                        responsabilidade e postura corporativa.
+                        Minha experiência profissional no setor de compras também ampliou competências
+                        importantes para tecnologia: organização, comunicação entre áreas, responsabilidade,
+                        atenção a processos e postura corporativa.
                     </p>
                 </div>
             </section>
@@ -81,18 +122,19 @@
             <section class="section" id="habilidades">
                 <div class="section-heading">
                     <p class="section-label">Habilidades</p>
-                    <h2>Competências técnicas e comportamentais</h2>
+                    <h2>Ferramentas e competências para enfrentar qualquer desafio</h2>
                 </div>
 
                 <div class="cards-grid">
-                    <article class="content-card">
+                    <article class="content-card" data-tilt>
                         <h3>Técnicas</h3>
                         <ul class="pill-list">
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>Lógica de Programação</li>
                             <li>JavaScript</li>
-                            <li>NodeJS</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
                             <li>PostgreSQL</li>
                             <li>Git e GitHub</li>
                             <li>Word e Excel avançado</li>
@@ -100,7 +142,7 @@
                         </ul>
                     </article>
 
-                    <article class="content-card">
+                    <article class="content-card" data-tilt>
                         <h3>Comportamentais</h3>
                         <ul class="pill-list">
                             <li>Raciocínio lógico</li>
@@ -116,10 +158,10 @@
             <section class="section" id="experiencia">
                 <div class="section-heading">
                     <p class="section-label">Experiência</p>
-                    <h2>Última experiência profissional</h2>
+                    <h2>Experiência que reforçou disciplina e visão profissional</h2>
                 </div>
 
-                <article class="timeline-card">
+                <article class="timeline-card" data-tilt>
                     <div class="timeline-top">
                         <div>
                             <p class="job-label">Setor de Compras</p>
@@ -140,27 +182,27 @@
             <section class="section" id="contato">
                 <div class="section-heading">
                     <p class="section-label">Contato</p>
-                    <h2>Canais para conexão profissional</h2>
+                    <h2>Pronto para conexões profissionais e novas oportunidades</h2>
                 </div>
 
                 <div class="contact-grid">
-                    <a class="contact-card" href="mailto:davimatheusfsales@gmail.com">
+                    <a class="contact-card" href="mailto:davimatheusfsales@gmail.com" data-tilt>
                         <span>Email</span>
                         <strong>davimatheusfsales@gmail.com</strong>
                     </a>
-                    <a class="contact-card" href="tel:+5592991707012">
+                    <a class="contact-card" href="tel:+5592991707012" data-tilt>
                         <span>Telefone</span>
                         <strong>(92) 99170-7012</strong>
                     </a>
-                    <a class="contact-card" href="https://instagram.com/mahtsales" target="_blank" rel="noreferrer">
+                    <a class="contact-card" href="https://instagram.com/mahtsales" target="_blank" rel="noreferrer" data-tilt>
                         <span>Instagram</span>
                         <strong>@mahtsales</strong>
                     </a>
-                    <a class="contact-card" href="https://www.linkedin.com/in/mahtsales/" target="_blank" rel="noreferrer">
+                    <a class="contact-card" href="https://www.linkedin.com/in/mahtsales/" target="_blank" rel="noreferrer" data-tilt>
                         <span>LinkedIn</span>
                         <strong>linkedin.com/in/mahtsales</strong>
                     </a>
-                    <a class="contact-card" href="https://github.com/mahtsales" target="_blank" rel="noreferrer">
+                    <a class="contact-card" href="https://github.com/mahtsales" target="_blank" rel="noreferrer" data-tilt>
                         <span>GitHub</span>
                         <strong>github.com/mahtsales</strong>
                     </a>
@@ -168,5 +210,7 @@
             </section>
         </main>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
