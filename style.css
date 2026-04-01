@@ -488,6 +488,7 @@ img {
 }
 
 .cards-grid,
+.projects-grid,
 .contact-grid {
     display: grid;
     gap: 18px;
@@ -497,11 +498,69 @@ img {
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.projects-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .content-card h3,
 .timeline-card h3 {
     margin-top: 0;
     margin-bottom: 18px;
     font-size: 1.8rem;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card::before,
+.project-process::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 4px;
+    background: linear-gradient(90deg, var(--red-strong), var(--blue-strong));
+}
+
+.project-list {
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.project-list li {
+    position: relative;
+    padding-left: 18px;
+    color: var(--muted);
+}
+
+.project-list li + li {
+    margin-top: 12px;
+}
+
+.project-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--blue-strong);
+    box-shadow: 0 0 14px rgba(76, 166, 255, 0.6);
+}
+
+.project-process {
+    grid-column: 1 / -1;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-process h3 {
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-size: 2rem;
 }
 
 .pill-list {
@@ -578,6 +637,7 @@ img {
 @media (max-width: 920px) {
     .hero-grid,
     .cards-grid,
+    .projects-grid,
     .contact-grid,
     .hero-stats {
         grid-template-columns: 1fr;
